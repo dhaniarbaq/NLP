@@ -4,6 +4,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize, WordPunctTokenizer
 
 # Make sure punkt is available
 nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 st.set_page_config(page_title="Tokenizer Demo (NLTK)", layout="wide")
 
