@@ -6,4 +6,4 @@ seaborn
 numpy
 plotly
 nltk
-PdfReader
+PyPDF2
